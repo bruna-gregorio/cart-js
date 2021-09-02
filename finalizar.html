@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shoes | Finalizar Compra</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/finish.css">
+</head>
+
+<body>
+  <header>
+    <a href="" class="logo">
+      <img src="/assets/thumbs-up.svg" alt="">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="index.html">Shoes</a></li>
+        <li><a href="">Contact</a></li>
+        <li>
+          <div>
+            <img src="/assets/shopping-cart.svg" alt="carrinho de compras">
+            <span class="number-cart">0</span>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="concludeContainer">
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Produto</th>
+          <th>Qtd</th>
+          <th>SubTotal</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody class="tableProduct">
+
+      </tbody>
+    </table>
+    <div class="cart-shopping"></div>
+    <div class="total-value"></div>
+
+    <div class="calculo-frete"></div>
+
+    <form action="#">
+      <div>
+        <label for="">Calculo de frete</label>
+        <input type="number" placeholder="xxxxx-xxx" title="Digite seu CEP" class="cep">
+      </div>
+      <input type="submit" value="Calcular" onclick="consultarCep()">
+    </form>
+
+
+    <div class="container"></div>
+  </div>
+</body>
+
+<script src="/scripts/finish.js"></script>
+<script src="/scripts/aside.js"></script>
+</body>
+
+</html>

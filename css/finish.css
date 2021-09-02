@@ -1,0 +1,137 @@
+header nav ul li:last-child {
+  cursor: default;
+}
+
+.concludeContainer {
+  padding: 0 4rem;
+  max-width: 850px;
+  margin: 4rem auto;
+}
+
+.concludeContainer .total-value {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-top: 1px solid #000;
+}
+
+.concludeContainer .total-value h3 {
+  font-size: 1.4rem;
+}
+
+.concludeContainer .total-value span {
+  font-size: 1.4rem;
+}
+
+table {
+  width: 100%;
+}
+
+thead th {
+  font-size: 1.2rem;
+}
+
+.tableProduct {
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.tableProduct td {
+  text-align: center;
+  width: 23%;
+}
+
+.tableProduct .imgProd {
+  text-align: left;
+}
+
+.tableProduct img {
+  width: 12rem;
+}
+
+.tableProduct p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.tableProduct span {
+  font-size: 1.2rem;
+}
+
+.tableProduct .delete {
+  width: 2rem;
+  cursor: pointer;
+  transition: filter .2s;
+}
+
+.tableProduct .delete:hover {
+  filter: invert(60%);
+}
+
+.calculo-frete {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.calculo-frete h3 {
+  font-size: 1.2rem;
+}
+
+.calculo-frete span {
+  font-size: 1.2rem;
+}
+
+
+
+form {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 12px;
+  margin: 1rem 0;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form div label {
+  font-size: 1.2rem;
+}
+
+form input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+form input[type=number] {
+ -moz-appearance: textfield;
+ appearance: textfield;
+
+ outline: none;
+ padding: .2rem .3rem;
+}
+
+form input[type=number]::placeholder {
+  text-transform: uppercase;
+}
+
+form input[type=submit] {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #000;
+  width: 8rem;
+  height: 2.8rem;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color .4s, color .4s;
+}
+
+form input[type=submit]:hover {
+  background-color: #fff;
+  color: #000;
+}
+

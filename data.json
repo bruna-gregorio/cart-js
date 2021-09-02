@@ -1,0 +1,95 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "https://images.lojanike.com.br/1024x1024/produto/air-jordan-1-mid-554724-069-1.jpg",
+      "name": "Air Jordan 1",
+      "price": 120,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus molestiae minus possimus magni omnis quisquam, earum quos nihil aspernatur.",
+      "amount": 1,
+      "category": "masculino",
+      "color": "red",
+      "photo2": "https://images.lojanike.com.br/515x515/produto/air-jordan-1-mid-554724-069-2.jpg",
+      "photo3": "https://images.lojanike.com.br/515x515/produto/air-jordan-1-mid-554724-069-4.jpg",
+      "photo4": "https://images.lojanike.com.br/515x515/produto/air-jordan-1-mid-554724-069-5.jpg"
+    },
+    {
+      "id": 2,
+      "image": "https://images.lojanike.com.br/1024x1024/produto/air-jordan-1-mid-feminino-BQ6472-800-1.jpg",
+      "name": "Air Jordan 2",
+      "price": 50,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus molestiae minus possimus magni omnis quisquam, earum quos nihil aspernatur.",
+      "amount": 1,
+      "category": "feminino",
+      "color": "bege",
+      "photo2": "https://images.lojanike.com.br/515x515/produto/air-jordan-1-mid-feminino-BQ6472-800-2.jpg",
+      "photo3": "https://images.lojanike.com.br/515x515/produto/air-jordan-1-mid-feminino-BQ6472-800-4.jpg",
+      "photo4": "https://images.lojanike.com.br/515x515/produto/air-jordan-1-mid-feminino-BQ6472-800-5.jpg"
+    },
+    {
+      "id": 3,
+      "image": "https://images.lojanike.com.br/1024x1024/produto/air-jordan-1-mid-554724-077-1.jpg",
+      "name": "Air Jordan 3",
+      "price": 200,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus molestiae minus possimus magni omnis quisquam, earum quos nihil aspernatur.",
+      "amount": 1,
+      "category": "masculino",
+      "color": "blue",
+      "photo2": "https://images.lojanike.com.br/515x515/produto/air-jordan-1-mid-554724-077-2.jpg",
+      "photo3": "https://images.lojanike.com.br/515x515/produto/air-jordan-1-mid-554724-077-4.jpg",
+      "photo4": "https://images.lojanike.com.br/515x515/produto/air-jordan-1-mid-554724-077-5.jpg"
+    },
+    {
+      "id": 4,
+      "image": "https://images.lojanike.com.br/1024x1024/produto/air-jordan-1-infantil-34-38-575441-126-1.jpg",
+      "name": "Air Jordan 4",
+      "price": 100,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus molestiae minus possimus magni omnis quisquam, earum quos nihil aspernatur.",
+      "amount": 1,
+      "category": "infantil",
+      "color": "grey",
+      "photo2": "https://images.lojanike.com.br/515x515/produto/air-jordan-1-infantil-34-38-575441-126-2.jpg",
+      "photo3": "https://images.lojanike.com.br/515x515/produto/air-jordan-1-infantil-34-38-575441-126-4.jpg",
+      "photo4": "https://images.lojanike.com.br/515x515/produto/air-jordan-1-infantil-34-38-575441-126-5.jpg"
+    },
+    {
+      "id": 5,
+      "image": "https://images.lojanike.com.br/1024x1024/produto/air-jordan-1-555088-134-1.jpg",
+      "name": "Air Jordan 5",
+      "price": 300,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus molestiae minus possimus magni omnis quisquam, earum quos nihil aspernatur.",
+      "amount": 1,
+      "category": "feminino",
+      "color": "blue",
+      "photo2": "https://images.lojanike.com.br/515x515/produto/air-jordan-1-555088-134-2.jpg",
+      "photo3": "https://images.lojanike.com.br/515x515/produto/air-jordan-1-555088-134-4.jpg",
+      "photo4": "https://images.lojanike.com.br/515x515/produto/air-jordan-1-555088-134-5.jpg"
+    },
+    {
+      "id": 6,
+      "image": "https://images.lojanike.com.br/1024x1024/produto/tenis-air-jordan-1-mid-554724-132-1.jpg",
+      "name": "Air Jordan 6",
+      "price": 250,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus molestiae minus possimus magni omnis quisquam, earum quos nihil aspernatur.",
+      "amount": 1,
+      "category": "feminino",
+      "color": "green",
+      "photo2": "https://images.lojanike.com.br/500x500/produto/tenis-air-jordan-1-mid-554724-132-2.jpg",
+      "photo3": "https://images.lojanike.com.br/500x500/produto/tenis-air-jordan-1-mid-554724-132-3.jpg",
+      "photo4": "https://images.lojanike.com.br/500x500/produto/tenis-air-jordan-1-mid-554724-132-11.jpg"
+    },
+    {
+      "id": 7,
+      "image": "https://images.lojanike.com.br/1024x1024/produto/air-jordan-1-og-555088-500-1.jpg",
+      "name": "Air Jordan 7",
+      "price": 300,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus molestiae minus possimus magni omnis quisquam, earum quos nihil aspernatur.",
+      "amount": 1,
+      "category": "masculino",
+      "color": "purple",
+      "photo2": "https://images.lojanike.com.br/515x515/produto/air-jordan-1-og-555088-500-2.jpg",
+      "photo3": "https://images.lojanike.com.br/515x515/produto/air-jordan-1-og-555088-500-4.jpg",
+      "photo4": "https://images.lojanike.com.br/515x515/produto/air-jordan-1-og-555088-500-5.jpg"
+    }
+  ]
+}

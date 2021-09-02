@@ -1,0 +1,136 @@
+.filterContainer {
+  gap: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 260px;
+  width: 100%;
+  padding: 2rem 1rem;
+
+  border: 1px solid rgba(187, 187, 187, 0.479);
+}
+
+
+.filterButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+}
+
+.filterButtons button {
+  padding: 0.3rem 1rem;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+
+.orderButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+
+  padding: 1rem 2rem 1rem 0;
+  margin-top: 1rem;
+}
+
+.orderButtons button {
+  padding: 0.3rem 1rem;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+
+.filterColorButtons {
+  width: 100%;
+}
+
+.filterColorButtons div {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.filterColorButtons div .color {
+  border: 1px solid #000000;
+  width: 4.5rem;
+  height: 6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.filterColorButtons button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  width: 4.5rem;
+  height: 6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.filterColorButtons .no-filter {
+  width: 12rem;
+  height: 3rem;
+  padding: 1.5rem 0;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+
+.filterColorButtons button span {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+
+.filterColorButtons button:nth-child(1) span {
+  background-color: #731526;
+}
+
+.filterColorButtons button:nth-child(2) span {
+  background-color: #dbcfc6;
+}
+
+.filterColorButtons button:nth-child(3) span {
+  background-color: #475bb4;
+}
+
+.filterColorButtons button:nth-child(4) span {
+  background-color: #7e7576;
+}
+
+.filterColorButtons button:nth-child(5) span {
+  background-color: #99c6bc;
+}
+
+.filterColorButtons button:nth-child(6) span {
+  background-color: #3f2f5b;
+}
+
+
+.filterColorButtons .buttonsColor .active {
+  border: 2px solid #ffffff;
+  box-shadow: 0px 0px 0px 3px #000;
+}
+
+
+

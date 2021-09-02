@@ -1,0 +1,198 @@
+aside {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 450px;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-left: 1px solid #000;
+  transform: translateX(100%);
+  transition: transform .2s;
+  overflow-y: scroll;
+  z-index: 2;
+}
+
+aside .close {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  cursor: pointer;
+  transition: filter .2s;
+}
+
+aside .close:hover, aside .delete:hover {
+  filter: invert(60%);
+}
+
+aside h2 {
+  margin-top: 3.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #000;
+}
+
+.cart-shopping {
+  margin: 1rem 0;
+}
+
+.cart-shopping .productOne:first-child {
+  border-top: none;
+}
+
+.cart-shopping .productOne {
+  padding: 0.8rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #9b9b9b;
+}
+
+.productOne .imgProduct {
+  width: 18%;
+}
+
+.productOne .info {
+  flex: 1;
+  margin-left: 1rem;
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.productOne p {
+  font-size: 1.4rem;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.productOne span {
+  font-size: 1.3rem;
+}
+
+.productOne .qtd {
+  margin-top: .2rem;
+}
+
+.productOne .subtotal {
+  flex: 1;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.productOne .subtotal p {
+  font-weight: 600;
+}
+
+.productOne .price {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.cart-shopping button {
+  margin: 0 0.5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+aside .delete {
+  width: 2rem;
+  cursor: pointer;
+  transition: filter .2s;
+}
+
+.total-value {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-top: 1px solid #000;
+}
+
+.total-value h3 {
+  font-size: 1.4rem;
+}
+
+.total-value span {
+  font-size: 1.4rem;
+}
+
+.concludeBuy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.concludeBuy a {
+  width: 22rem;
+  height: 4rem;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #111;
+  border: none;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color .4s, color .4s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.concludeBuy a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.messageEmpty {
+  /* border: 1px solid #000; */
+
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.messageEmpty p {
+  font-size: 1.2rem;
+}
+
+.messageEmpty button {
+  width: 22rem;
+  height: 4rem;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #111;
+  border: none;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color .4s, color .4s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.messageEmpty button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+
+aside.open {
+  transform: translateX(0);
+}

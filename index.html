@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shoes</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/filter.css">
+  <link rel="stylesheet" href="/css/aside.css">
+  <link rel="stylesheet" href="/css/message.css">
+  <link rel="stylesheet" href="/css/placeholders.css">
+  <link rel="stylesheet" href="/css/product-single.css">
+</head>
+
+<body>
+  <header>
+    <a href="" class="logo">
+      <img src="/assets/thumbs-up.svg" alt="">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="index.html">Shoes</a></li>
+        <li><a href="#">Contact</a></li>
+        <li onclick="Aside.open()">
+          <div>
+            <img src="/assets/shopping-cart.svg" alt="carrinho de compras">
+            <span class="number-cart">0</span>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="message-sucess">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-smile">
+      <circle cx="12" cy="12" r="10"></circle>
+      <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+      <line x1="9" y1="9" x2="9.01" y2="9"></line>
+      <line x1="15" y1="9" x2="15.01" y2="9"></line>
+    </svg>
+    <p>Produto adicionado com sucesso!</p>
+  </div>
+
+  <div class="container">
+    <div class="filterContainer">
+      <div class="filterButtons">
+        <h3>Filtrar</h3>
+        <button onclick="filter()">Todos</button>
+        <button onclick="filter('feminino')">Feminino</button>
+        <button onclick="filter('masculino')">Masculino</button>
+        <button onclick="filter('infantil')">Infantil</button>
+      </div>
+
+      <div class="orderButtons">
+        <h3>Ordenar</h3>
+        <button onclick="pricesInAscendingOrder()">Preço: menor ao maior</button>
+        <button onclick="pricesInDecreasingOrder()">Preço: maior ao menor</button>
+        <button onclick="orderPriceLessThan100()">Preço: R$ 0 - R$ 100,00</button>
+        <button onclick="orderPriceBetween100and200()">Preço: R$ 100,00 - R$ 200,00</button>
+        <button onclick="orderPriceBetween200and300()">Preço: R$ 200,00 - R$ 300,00</button>
+        <button onclick="orderPriceBetween300and400()">Preço: R$ 300,00 - R$ 400,00</button>
+        <button onclick="orderPriceAbove400()">Preço: Acima de R$ 400,00</button>
+      </div>
+
+      <div class="filterColorButtons">
+        <h3>Cor</h3>
+        <button onclick="filterColor()" class="no-filter" style="display: none;">Limpar Seleção</button>
+        <div class="buttonsColor">
+          <!-- <button onclick="filterColor(this, 'red')" class="btn"><span class="color-span"></span> Red</button>
+          <button onclick="filterColor(this, 'bege')" class="btn"><span class="color-span"></span> Bege</button>
+          <button onclick="filterColor(this, 'blue')" class="btn"><span class="color-span"></span> Blue</button>
+          <button onclick="filterColor(this, 'grey')" class="btn"><span class="color-span"></span> Grey</button>
+          <button onclick="filterColor(this, 'green')" class="btn"><span class="color-span"></span> Green</button>
+          <button onclick="filterColor(this, 'purple')" class="btn"><span class="color-span"></span> Purple</button> -->
+
+          <button onclick="filterColor('red')"><span class="color-span"></span> Red</button>
+          <button onclick="filterColor('bege')"><span class="color-span"></span> Bege</button>
+          <button onclick="filterColor('blue')"><span class="color-span"></span> Blue</button>
+          <button onclick="filterColor('grey')"><span class="color-span"></span> Grey</button>
+          <button onclick="filterColor('green')"><span class="color-span"></span> Green</button>
+          <button onclick="filterColor('purple')"><span class="color-span"></span> Purple</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="prod">
+      <div class="filterContent">
+      </div>
+
+      <div class="products">
+        <div class="placeholder-card">
+          <div class="placeholder-card__image"></div>
+          <div class="placeholder-card__text"></div>
+          <div class="placeholder-card__price"></div>
+          <div class="placeholder-card__button">
+            <div class="placeholder-card__button-cart"></div>
+          </div>
+        </div>
+        <div class="placeholder-card">
+          <div class="placeholder-card__image"></div>
+          <div class="placeholder-card__text"></div>
+          <div class="placeholder-card__price"></div>
+          <div class="placeholder-card__button">
+            <div class="placeholder-card__button-cart"></div>
+          </div>
+        </div>
+        <div class="placeholder-card">
+          <div class="placeholder-card__image"></div>
+          <div class="placeholder-card__text"></div>
+          <div class="placeholder-card__price"></div>
+          <div class="placeholder-card__button">
+            <div class="placeholder-card__button-cart"></div>
+          </div>
+        </div>
+        <div class="placeholder-card">
+          <div class="placeholder-card__image"></div>
+          <div class="placeholder-card__text"></div>
+          <div class="placeholder-card__price"></div>
+          <div class="placeholder-card__button">
+            <div class="placeholder-card__button-cart"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <aside class="cart">
+    <img src="assets/x.svg" alt="" onclick="Aside.close()" class="close">
+    <h2>Carrinho de compras</h2>
+    <div class="cart-shopping">
+    </div>
+    <div class="total-value"></div>
+    <div class="concludeBuy">
+      <a href="finalizar.html">Finalizar Compra</a>
+    </div>
+  </aside>
+
+
+  <div class="modal-overlay">
+  </div>
+</body>
+
+<script src="/scripts/script.js"></script>
+<script src="/scripts/aside.js"></script>
+
+</html>
